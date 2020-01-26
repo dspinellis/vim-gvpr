@@ -36,7 +36,7 @@ hi def link gvprComment     Comment
 syn region String      start=+"+ end=+"+
 syn region String      start=+'+ end=+'+
 
-syn match Integer   "\d\+"
+syn match Integer   "\<\d\+"
 
 hi def link Integer         Number
 
